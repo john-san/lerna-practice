@@ -1,0 +1,24 @@
+{
+  "name": "package_2",
+  "version": "0.0.0",
+  "description": "Todo: description",
+  "keywords": [],
+  "author": "John Nguyen <npjohn92@gmail.com>",
+  "license": "ISC",
+  "main": "dist/isEven.js",
+  "types": "dist/isEven.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "package_1": "file:../package_1"
+  }
+}

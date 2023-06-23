@@ -1,0 +1,21 @@
+{
+  "name": "package_1",
+  "version": "0.0.0",
+  "description": "TODO: description",
+  "keywords": [],
+  "author": "John Nguyen <npjohn92@gmail.com>",
+  "license": "ISC",
+  "main": "dist/isOdd.js",
+  "types": "dist/isOdd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
